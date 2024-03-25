@@ -1,0 +1,139 @@
+main {
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    height: 100vh;
+
+}
+
+.LogIn {
+    margin: 0; 
+    padding: 50px 10px 10px 10px;
+    /* font-family: Arial, sans-serif; */     
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+  }
+  
+
+  .Account {
+    margin: 0; 
+    padding: 30px 10px 10px 10px;
+    /* font-family: Arial, sans-serif;      */
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+  }
+  
+  .align {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+input[type="text"],
+input[type="password"] {
+    gap: 150px;/* 원하는 가로 길이로 조정 */
+    padding: 15px 170px 15px 15px; /* 텍스트 입력 영역과 테두리 사이의 여백 */
+    margin: 0px; /* input 요소 사이의 여백 */
+    display: flex;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.165); 
+    color: white;
+
+}
+
+div.Hidepw{
+    position: relative;
+}
+
+div.HidePw i{
+    position: absolute;
+    left: 75%;
+    top: 27px;
+    color: white;
+}
+
+/*         <!-- 눈모양 넣는거 https://yeongju.tistory.com/34 이 개발 블로그 보고 따라했는데 적용이 안됨... -->
+ */
+.button_align {
+    display: flex;
+    justify-content: center;
+
+}
+
+.signin {
+    gap: 150px;
+    padding: 15px 135px 15px 135px;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712); 
+    margin: 10px;
+
+    /* display: inline-flex; */
+    /* text-align: center; */
+    /* align-items:center; */
+    /* justify-content:center; */
+}
+
+.rememberme_forgotpw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+input {
+    margin: 0.4;
+    accent-color: rgba(255, 255, 255, 0.712);
+
+  }
+label {
+    color: white;
+
+}
+button {
+    padding: 0px 0px 0px 70px;
+    border: none;
+    background-color: transparent; 
+    color: white;
+    /* font-weight: bold; -> 이거 하면 여기 있는 버튼 전부가 다 볼드처리됨...*/ 
+
+}
+
+.OrSignwith {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px 10px 15px 10px;
+}
+
+.FacebookOrTwitter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+/* 이 밑에 두개 버튼 코드들 하나로 묶어서 처리하고싶었는데, div나 클래스로 묶으면 아예 버튼 박스까지 다 합쳐짐... */
+.Facebook {
+    padding: 13px 50px 13px 50px;
+    color: black;
+    border-style: none;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.Twitter {
+    padding: 13px 50px 13px 50px;
+    color: black;
+    border-style: none;
+    background-color: white;
+    border-radius: 3px;
+}

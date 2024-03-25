@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="log-in_style.css" />
+    <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <span class="LogIn">Login #10</span>
+        <span class="Account">Have an account?</span>
+
+        <div class="align">
+            <section class="Input">
+                <input type="text" name="username" placeholder="Username"><br>
+                <div class="form-group HidePW">
+                    <input type="text" name="password" placeholder="Password" required="">
+                    <i class="fa fa-eye fa-lg"></i>
+                </div>
+            </section>
+        </div>
+
+        <!-- 눈모양 넣는거 https://yeongju.tistory.com/34 이 개발 블로그 보고 따라했는데 적용이 안됨... -->
+
+        <div class="button_align">
+            <section>
+                <button class="signin" onclick="check()">SIGN IN</button>
+            </section>
+        </div>
+        <section class="rememberme_forgotpw">
+
+            <div>
+                <input type="checkbox" id="scales" name="scales" checked>
+                <label for="scales">Remember me</label>
+            </div>
+
+            <button>Forgot Password</button>
+        </section>
+
+        <section>
+            <span class="OrSignwith">- Or Sign In With -</span>
+        </section>
+
+        <section div class="FacebookOrTwitter">
+            <button class="Facebook">Facebook</button>
+            <button class="Twitter">Twitter</button>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
